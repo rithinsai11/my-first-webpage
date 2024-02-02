@@ -1,0 +1,75 @@
+.hero {
+    background-image: url(sideBackGRound.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-content {
+    color: white;
+}
+
+.cta-button {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Style the navigation menu */
+/* Style the navigation menu */
+nav {
+    background: transparent;
+    font-size: 24px;
+    text-align: center;
+    position: fixed; /* Make the navigation bar fixed */
+    width: 100%; /* Make the navigation bar span the full width of the page */
+    top: 0; /* Position the navigation bar at the top of the page */
+    z-index: 1000; /* Ensure the navigation bar is above other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Style the navigation links */
+nav ul li {
+    float: left;
+    margin-right: 20px; /* Add space to the right of each list item */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove space from the right of the last list item */
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+/* Responsive navigation menu (will kick in at 600px) */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        float: none;
+        width: 100%;
+        margin-right: 0; /* Remove space from the right of list items on small screens */
+    }
+}
