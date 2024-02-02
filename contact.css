@@ -1,0 +1,28 @@
+body {
+    background-image: url(sideBackGRound.jpg);
+    background-size: 8em;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.container {
+    width: 80%;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: auto;
+}
+
+input {
+    font-size: 1.5rem
+}
+
+label {
+    font-size: 2rem;
+}
